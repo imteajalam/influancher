@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+  margin-left: 120px;
+  margin-top: 87px;
+}
+.navbar {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 96px;
+  margin-right: 120px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 34px;
+  padding: 7px 10px;
+  border-radius: 2px;
+  color: #3a3a3a;
+  transition: 0.5s;
+}
+.active {
+  color: #e02c6d;
+}
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #e02c6d;
+}
+.tir {
+  width: 36px;
+  height: 36px;
+}
+/* -----------------
+      header end 
+------------------- */
+.groups {
+  display: flex;
+}
+.group {
+  width: 582px;
+  height: 270px;
+  margin-left: 120px;
+  margin-top: 145px;
+}
+.group h1 {
+  width: 582px;
+  height: 133px;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+.group p {
+  font-weight: 600;
+  font-size: 16px;
+  height: 60px;
+  width: 500px;
+  color: #3a3a3a;
+}
+.cart-btn {
+  width: 196px;
+  height: 44px;
+  padding: 12px 24px;
+  border: #e02c6d;
+  background: #e02c6d;
+  border-radius: 41px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cart-btn:hover {
+  background-color: black;
+}
+.img {
+  background-image: url(images/Circle\ design.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 530px;
+  margin-top: 80px;
+  width: 475px;
+  height: 475px;
+}
+
+.client {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1310px;
+  height: 110px;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.top-hr {
+  width: 1510px;
+  margin-top: 70px;
+}
+hr {
+  width: 1510px;
+}
+.client img {
+  margin-left: 20px;
+}
+/* ------------------------
+    second section start
+------------------------ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-column-gap: 0px;
+  margin-top: 30px;
+
+  /* margin-left: 50px; */
+  margin-bottom: 50px;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 100px;
+  color: #3a3a3a;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  margin-bottom: 30px;
+  width: 329px;
+  height: 476px;
+  padding: 15px;
+}
+.card img {
+  width: 300px;
+  height: 256px;
+  /* padding: 15px; */
+}
+.container h1 {
+  width: 151px;
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+  margin: 0;
+}
+.container h2 {
+  font-weight: 400;
+  font-size: 24px;
+  height: 36px;
+  margin-bottom: 6px;
+}
+.stars {
+  margin: 0px;
+  padding: 0px;
+}
+.fa-star.filled {
+  /* width: 11.07px;
+  height: 10.32px; */
+  color: #fbb200;
+}
+.fa-star.empty{
+  color: #fbb200;
+}
+p {
+  font-weight: 700;
+  font-size: 14px;
+  color: #787885;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/*--------------------- 
+  features stats
+-------------------- */
+
+.see-more {
+  border: none;
+  background-color: white;
+  color: #e02c6d;
+  padding: 10px 10px;
+  margin-left: 1630px;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+}
+.feature {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 165px;
+}
+.gear-img img {
+  width: 404px;
+  height: 270px;
+}
+.detaile {
+  margin-left: 96px;
+}
+.detaile h1 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #0a0826;
+  width: 620px;
+  height: 60px;
+  /* margin-left: 50px; */
+}
+.detaile p {
+  font-weight: 700;
+  font-size: 16px;
+  width: 501px;
+  height: 88px;
+  color: #6c6c6c;
+}
+/* ----------------
+     footer start 
+----------------- */
+footer {
+  height: 250px;
+  width: 100%;
+  background-color: #0a0826;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+.footer-info {
+  width: 562px;
+  height: 139px;
+}
+.headline h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.headline p {
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.meadia a {
+  color: #e02c6d;
+  width: 176px;
+  height: 32px;
+  font-size: 25px;
+  margin: 10px;
+}
+.meadia a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.creator {
+  color: white;
+  word-spacing: 5px;
+}
+.creator i:hover {
+  color: #e02c6d;
+}
+
+
+
+/* ------------------
+      meadia quaries
+------------------- */
+@media only screen and (min-width:688px) 
+{
+  .
+}
