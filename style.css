@@ -289,7 +289,13 @@ footer {
 /* ------------------
       meadia quaries
 ------------------- */
-@media only screen and (min-width:688px) 
+@media only screen and (max-width:688px) 
 {
-  .
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
