@@ -129,7 +129,8 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  grid-column-gap: 0px;
+  grid-column-gap: 20px;
+  gap: 0px;
   margin-top: 30px;
 
   /* margin-left: 50px; */
@@ -297,5 +298,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scrollbar-gutter:  25px;
   }
 }
